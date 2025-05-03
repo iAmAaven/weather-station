@@ -1,6 +1,6 @@
 #include <LiquidCrystal.h>
 
-const int sensorPin = A1; // Käytetään A1 analogilukemaan
+const int sensorPin = A5; // Käytetään A5 analogilukemaan
 const int numSamples = 10; // 10 näytettä
 int readings[numSamples]; // Tallennetaan 10 arvoa
 int sampleIndex = 0;
